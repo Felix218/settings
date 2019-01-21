@@ -1,0 +1,46 @@
+2019-01-21T19:07:48.132Z - info:   [91787] *** FOLDER: /Users/felixadenodi/Documents/settings ***
+2019-01-21T19:07:48.132Z - info:   [91787] AzureReposVSCode/1.144.1 (VSCode 1.30.2; Darwin 16.7.0; Node 8.9.3)
+2019-01-21T19:07:48.132Z - debug:  [91787] Looking for an External Context at /Users/felixadenodi/Documents/settings
+2019-01-21T19:07:48.132Z - debug:  [91787] No External Context at /Users/felixadenodi/Documents/settings
+2019-01-21T19:07:48.134Z - debug:  [91787] Looking for TFVC repository at /Users/felixadenodi/Documents/settings
+2019-01-21T19:07:48.134Z - debug:  [91787] TFVC Creating Tfvc object with localPath='undefined'
+2019-01-21T19:07:48.135Z - debug:  [91787] Using TFS proxy: 
+2019-01-21T19:07:48.135Z - debug:  [91787] TFVC Retrieved from settings; localPath='/Users/felixadenodi/TEE-CLC-14.114.0/tf'
+2019-01-21T19:07:48.136Z - debug:  [91787] TFVC Repository created with repositoryRootFolder='/Users/felixadenodi/Documents/settings'
+2019-01-21T19:07:48.136Z - debug:  [91787] TFVC Repository.CheckVersion
+2019-01-21T19:07:48.137Z - debug:  [91787] TFVC: tf add -noprompt -?
+2019-01-21T19:07:48.142Z - debug:  [91787] TFVC: spawned new process (duration: 5ms)
+2019-01-21T19:07:48.146Z - debug:  [91787] TFVC: spawned new process (duration: 4ms)
+2019-01-21T19:07:49.309Z - debug:  [91787] TFVC: add exit code: 0 (duration: 1172ms)
+2019-01-21T19:07:49.310Z - debug:  [91787] TFVC Minimum required version: 14.0.4
+2019-01-21T19:07:49.310Z - debug:  [91787] TFVC (TF.exe, TF.cmd) version: 14.114.0.201703081734
+2019-01-21T19:07:49.310Z - debug:  [91787] TFVC Repository.FindWorkspace with localPath='/Users/felixadenodi/Documents/settings'
+2019-01-21T19:07:49.310Z - debug:  [91787] TFVC: tf workfold -noprompt ********
+2019-01-21T19:07:49.314Z - debug:  [91787] TFVC: spawned new process (duration: 3ms)
+2019-01-21T19:07:49.507Z - debug:  [91787] TFVC: workfold exit code: 100 (duration: 196ms)
+2019-01-21T19:07:49.508Z - debug:  [91787] TFVC errors (via stderr): An argument error occurred: The workspace could not be determined from any argument paths or the current working directory.
+
+2019-01-21T19:07:49.508Z - debug:  [91787] TFVC errors (via stdout): Team Explorer Everywhere Command Line Client (version 14.114.0.201703081734)
+
+ workfold command:
+
+  Creates, modifies, or displays information about the mappings between your
+  workspace folders and the source control server folders to which they
+  correspond.
+
+ Valid option sets:
+
+  workfold [-collection:<url>] [-workspace:<value>] <serverFolder>
+  workfold [-map] [-collection:<url>] [-workspace:<value>] <serverFolder>
+           <localFolder>
+  workfold [-workspace:<value>]
+  workfold <localFolder>
+  workfold -cloak [-collection:<url>] [-workspace:<value>]
+           <serverFolder>|<localFolder>
+  workfold -decloak [-collection:<url>] [-workspace:<value>]
+           <serverFolder>|<localFolder>
+  workfold -unmap [-collection:<url>] [-workspace:<value>]
+           <serverFolder>|<localFolder>
+
+
+2019-01-21T19:07:49.508Z - error:  [91787] Could not find a workspace with mappings (e.g., not a TFVC repository, wrong version of TF is being used).
